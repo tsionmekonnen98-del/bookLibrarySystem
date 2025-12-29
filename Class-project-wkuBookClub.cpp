@@ -1,4 +1,4 @@
-Beki, [12/29/2025 2:01 AM]
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -77,7 +77,7 @@ library[37] = {"Algorithms", "Robert Sedgewick", "Software Engineering", false, 
 library[38] = {"Computer Organization", "William Stallings", "Software Engineering", false, 0};
 library[39] = {"Operating Systems", "Abraham Silberschatz", "Software Engineering", false, 0};
 
-Beki, [12/29/2025 2:01 AM]
+
 // ---------- MIXED FRESHMAN SUPPORT ----------
 library[40] = {"Logic for Computer Science", "Jean Gallier", "Software Engineering", false, 0};
 library[41] = {"Numerical Methods", "S.S. Sastry", "Natural", false, 0};
@@ -186,7 +186,7 @@ void adminMenu() {
         } while (choice != 0);
     }
 
-Beki, [12/29/2025 2:01 AM]
+
 // ================== BOOK FUNCTIONS ==================
     void addBook() {
         cin.ignore();
@@ -307,7 +307,7 @@ if (library[totalBooks].category != "Natural" &&
         cout << "Enter title: ";
         getline(cin, title);
 
-Beki, [12/29/2025 2:01 AM]
+
 for (int i = 0; i < totalBooks; i++) {
             if (library[i].title == title && library[i].isBorrowed) {
                 library[i].isBorrowed = false;
